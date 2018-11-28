@@ -1,0 +1,9 @@
+#patch files
+*.patch
+
+#backup files
+*~
+\#*\#
+
+#generated packages
+*.wgt
