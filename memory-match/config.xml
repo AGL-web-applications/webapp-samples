@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="webapps-memory-match" version="1.1.7">
+  <name>MemoryMatch</name>
+  <icon src="icon_128.png"/>
+  <content src="index.html" type="text/html"/>
+  <description>Memory match</description>
+  <author>Todd Brandt &lt;todd.e.brandt@intel.com&gt;</author>
+  <license>APL v2</license>
+  <feature name="urn:AGL:widget:required-permission">
+    <param name="urn:AGL:permission::public:no-htdocs" value="required" />
+  </feature>
+  <feature name="urn:AGL:widget:required-api">
+    <param name="windowmanager" value="ws" />
+    <param name="homescreen" value="ws" />
+  </feature>
+</widget>
+

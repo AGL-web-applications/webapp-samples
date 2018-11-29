@@ -1,4 +1,4 @@
-APP_LIST=annex hvac-enact youtube
+APP_LIST=annex hvac-enact memory-match youtube
 
 package:
 	mkdir -p package

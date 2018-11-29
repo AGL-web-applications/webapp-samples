@@ -1,0 +1,34 @@
+{
+    "level1": {"message": "Level 1"},
+    "level2": {"message": "Level 2"},
+    "level3": {"message": "Level 3"},
+    "quit": {"message": "Quit"},
+    "hint": {"message": "Hint"},
+    "matches": {"message": "Matches"},
+    "num0": {"message": "0"},
+    "num1": {"message": "1"},
+    "num2": {"message": "2"},
+    "num3": {"message": "3"},
+    "num4": {"message": "4"},
+    "num5": {"message": "5"},
+    "num6": {"message": "6"},
+    "num7": {"message": "7"},
+    "num8": {"message": "8"},
+    "win_replay" : {"message": "REPLAY"},
+    "win_quit" : {"message": "QUIT"},
+    "win_backtostart" : {"message": "BACK TO START"},
+    "win_nextlevel" : {"message": "NEXT LEVEL"},
+    "win_text" : {"message": "CONGRATULATIONS! <b>YOU WIN!</b>"},
+    "help_text" : {"message": "Can you find all the matching pictures?<br><br>
+             First, choose a level. The higher the level, the more picture cards
+             you’ll get.<br><br>
+             Then click a face-down card to peek at it. Click another to see if
+             you’ve found a match. If not, they’ll flip back over and you can try
+             again. If they do match, they’ll remain face up, and you’re getting
+             closer to winning! If you get stuck, click Hint to uncover a match.
+             <br><br>
+             When you finish a game, you can click:<br>
+             <ul><li>Replay to play that level again</li>
+             <li>Next Level to move up to more picture cards</li>
+             <li>Quit to go back to the beginning</li></ul>"}
+}
