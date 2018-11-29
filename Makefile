@@ -1,4 +1,4 @@
-APP_LIST=youtube
+APP_LIST=hvac-enact youtube
 
 package:
 	mkdir -p package

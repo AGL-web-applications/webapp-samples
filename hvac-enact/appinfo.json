@@ -1,0 +1,10 @@
+{
+	"id": "com.webos.app.agl.hvac",
+	"version": "1.0.0",
+	"vendor": "LGE-SVL",
+	"type": "web",
+	"main": "index.html",
+	"title": "Enact AGL HVAC Proof of Concept",
+	"icon": "icon.png",
+	"uiRevision": 2
+}
