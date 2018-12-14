@@ -3,7 +3,9 @@ APP_LIST=annex hvac-enact memory-match youtube
 package:
 	mkdir -p package
 	for i in $(APP_LIST); do \
-		wgtpkg-pack $$i -o package/$$i.wgt; \
+		cd $$i; \
+		zip -r ../package/$$i.wgt *; \
+		cd ..; \
 	done
 
 .PHONY: clean
