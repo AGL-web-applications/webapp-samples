@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Page not found | neography </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="Alex Giron's Personal Website" />
+		<meta name="keywords" content="everyone likes cheese" />
+		<meta name="author" content="Alex Giron" />
+		<meta name="copyright" content="Neography" />
+		<link rel="shortcut icon" href="/wp/wp-content/themes/alex/_base/img/favicon.ico" type="image/x-icon" /> 
+		<link rel="stylesheet" href="/wp/wp-content/themes/alex/_base/css/styles.css" />
+        
+		
+		<link rel="alternate" type="application/rss+xml" title="neography RSS Feed" href="http://feeds.feedburner.com/neography" />
+				
+	</head>
+	<body>
+	
+<header  class="active">
+    <div class="info">
+        <p class="neo">neography by</p>
+        <h1><a href="/">Alex Girón</a></h1>
+        <h3>A designer living in <del>Old Town Alexandria</del> San Francisco. Co-founder of <a href="http://nvite.com">nvite</a>, <a href="http://canvas.co/work">canvas</a> and <a href="http://nclud.com">nclud</a>. Founder of <a href="http://worthy.am">worthy</a>. Formerly Design Lead at <a href="http://twitter.com">twitter</a>.</h3>
+        <ul>
+            <li><a href="http://twitter.com/giron">@giron</a></li>
+            <li><a href="http://worthy.am">worthy</a></li>
+            <li><a href="http://canvas.co/work">canvas</a></li>
+			<li><a href="http://dribbble.com/giron">dribbble/giron</a></li>
+            <li><a href="http://visual.neography.com">visual bits</a></li>
+            <li><a href="http://neography.com/designquotes">design quotes</a></li>
+            <li><a href="http://nclud.com">nclud</a></li>
+            <li><a href="http://nvite.com">nvite</a></li>
+        </ul>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a  class="home" href="/" title="Home">⌂</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/journal">Journal</a></li>
+        <li><a href="/sidenotes">Notes</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+</nav>
+
+<div id="content">
+	<div class="updatable error">
+
+        <h1 class="error">404<span>.</span></h1>
+        
+        <h2>Crap, not sure what happened to this page... but it ain't here any more!</h2>
+        
+        <h3>Why don't you go <a href="/">home</a> instead.</h3>
+
+
+	</div>
+
+
+</div>
+<footer>
+    <p>© Copyright 2012 Alex Girón.</p>
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/wp/wp-content/themes/alex/_base/js/jquery-1.7.1.min.js"><\/script>')</script>
+<script src="/wp/wp-content/themes/alex/_base/js/jquery.djax.js"></script>
+<script src="/wp/wp-content/themes/alex/_base/js/dostuff.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79540-5', 'neography.com');
+  ga('send', 'pageview');
+
+</script>
+
+	</body>
+</html>
