@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="webapps-falling-blocks" version="1.0.0">
+  <name>Falling blocks</name>
+  <icon src="icon.png"/>
+  <content src="index.html" type="text/html"/>
+  <description>Falling blocks demo</description>
+  <author>Igalia, S.L.</author>
+  <license>MIT</license>
+  <feature name="urn:AGL:widget:required-permission">
+    <param name="urn:AGL:permission::public:no-htdocs" value="required" />
+  </feature>
+  <feature name="urn:AGL:widget:required-api">
+    <param name="windowmanager" value="ws" />
+    <param name="homescreen" value="ws" />
+  </feature>
+</widget>

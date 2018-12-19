@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="blockrain.css">
+    <link rel="stylesheet" href="falling-blocks.css">
+  </head>
+  <body>
+    <div class="game"></div>
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="blockrain/blockrain.jquery.min.js"></script>
+
+    <script>
+      $('.game').blockrain({
+        autoplay: true,
+        autoplayRestart: true,
+        blockWidth: 20,
+        speed: 100,
+        theme: 'candy',
+      });
+    </script>
+  </body>
+</html>

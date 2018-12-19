@@ -1,4 +1,4 @@
-APP_LIST=annex aquarium blob hvac-enact memory-match solar-system youtube
+APP_LIST=annex aquarium blob falling-blocks hvac-enact memory-match solar-system youtube
 
 package:
 	mkdir -p package

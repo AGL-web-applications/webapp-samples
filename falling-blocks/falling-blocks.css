@@ -1,0 +1,15 @@
+body {
+  margin: 0px;
+  background-color: black;
+}
+
+.game {
+  margin-left: auto;
+  margin-right: auto;
+  width: 590px;
+  height: 790px;
+}
+
+.blockrain-score-holder {
+  visibility: hidden;
+}
