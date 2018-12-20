@@ -11,7 +11,12 @@
     <script src="blockrain/blockrain.jquery.min.js"></script>
 
     <script>
-      $('.game').blockrain({
+      var w = $(window).width();
+      var h = $(window).height();
+      var game = $('.game');
+      game.width(w-20);
+      game.height(h-40);
+      game.blockrain({
         autoplay: true,
         autoplayRestart: true,
         blockWidth: 20,

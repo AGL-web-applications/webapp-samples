@@ -4,10 +4,7 @@ body {
 }
 
 .game {
-  margin-left: auto;
-  margin-right: auto;
-  width: 590px;
-  height: 790px;
+  margin: auto;
 }
 
 .blockrain-score-holder {
