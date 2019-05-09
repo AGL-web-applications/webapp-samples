@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="webapps-html5-homescreen" version="5.0.0">
+  <name>HTML5 Homescreen</name>
+  <icon src="icon.png"/>
+  <content src="index.html" type="text/html"/>
+  <description>HTML5 Homescreen demo</description>
+  <author>Igalia, S.L.</author>
+  <license>MIT</license>
+  <feature name="urn:AGL:widget:required-permission">
+    <param name="urn:AGL:permission::public:no-htdocs" value="required" />
+    <param name="urn:AGL:permission:afm:system:widget" value="required" /> <!-- list available apps -->
+    <param name="urn:AGL:permission:afm:system:runner" value="required" /> <!-- run other apps -->
+    <param name="urn:AGL:permission::public:applications:read" value="required" /> <!-- get app icons -->
+  </feature>
+  <feature name="urn:AGL:widget:required-api">
+    <param name="windowmanager" value="ws" />
+    <param name="homescreen" value="ws" />
+    <param name="afm-main" value="ws" />
+  </feature>
+</widget>

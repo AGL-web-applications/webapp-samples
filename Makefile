@@ -1,4 +1,4 @@
-APP_LIST=annex aquarium blob falling-blocks hextris hvac-enact memory-match solar-system youtube
+APP_LIST=annex aquarium blob falling-blocks hextris html5-homescreen hvac-enact memory-match solar-system youtube
 
 package:
 	mkdir -p package
