@@ -8,11 +8,36 @@ function log(message) {
     document.getElementById('info').innerHTML += '<li>' + message + '</li>';
 }
 
+function run_application(app_id) {
+    var ws = new afb.ws(() => {
+        log("runnning: " + app_id);
+        var api_verb = "afm-main/start";
+        var request = {id: app_id};
+        ws.call(api_verb, request).then(
+            (obj) => {
+                log("success: " + obj.response);
+            },
+            (obj) => {
+                log("failure");
+            }
+        );
+        log("ws called");
+    },
+    () => {
+        log("ws aborted");
+    });
+}
+
+function on_app_clicked(event) {
+    run_application(event.target.id);
+}
+
 function display_application(app) {
     var list = document.getElementById('apps');
     var link = document.createElement('a');
     link.id = app.id;
     link.appendChild(document.createTextNode(app.name));
+    link.addEventListener("click", on_app_clicked);
 
     var li = document.createElement('li');
     li.appendChild(link);
