@@ -36,6 +36,13 @@ function display_application(app) {
     var list = document.getElementById('apps');
     var link = document.createElement('a');
     link.id = app.id;
+
+    var img = document.createElement('img');
+    img.src = 'icons/' + app.id;
+    img.id = app.id;
+    img.setAttribute('style', 'width: 50px;height: 50px');
+    link.appendChild(img);
+
     link.appendChild(document.createTextNode(app.name));
     link.addEventListener("click", on_app_clicked);
 
