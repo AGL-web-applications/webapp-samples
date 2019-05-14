@@ -5,7 +5,8 @@ with the Web Application Manager (WAM) component from
 [webOS Open Source Edition](http://www.webosose.org/).
 
 WAM is available in AGL, starting in the Flounder 6.0.5 and Guppy
-7.0.0 releases.
+7.0.0 releases. Images must be built with the `agl-html5-framework`
+feature enabled.
 
 ## Building
 
