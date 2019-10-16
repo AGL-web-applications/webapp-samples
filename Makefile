@@ -1,4 +1,4 @@
-APP_LIST=annex aquarium blob falling-blocks hextris html5-homescreen hvac-enact memory-match solar-system youtube jamendo
+APP_LIST=annex application-list aquarium blob falling-blocks hextris hvac-enact memory-match solar-system youtube jamendo
 
 package:
 	mkdir -p package
