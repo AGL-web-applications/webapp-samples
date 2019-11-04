@@ -1,11 +1,23 @@
-const button = document.querySelector('#button');
+document.querySelector('#save-button').addEventListener('click', saveButton);
+document.querySelector('#increment-button').
+    addEventListener('click', incrementButton);
+document.querySelector('#clear-button').addEventListener('click', clearButton);
 
-button.addEventListener('click', createButton);
-
-function createButton() {
+function saveButton() {
   const name = document.querySelector("#cookie-name").value;
   const value = document.querySelector("#cookie-value").value;
   docCookies.setItem(name, value, 31536e3 /*one year validity*/);
+  listCookies();
+}
+
+function incrementButton() {
+  var count = Number(docCookies.getItem("counter"));
+  docCookies.setItem("counter", count+1, 31536e3 /*one year validity*/);
+  listCookies();
+}
+
+function clearButton() {
+  docCookies.clear();
   listCookies();
 }
 
