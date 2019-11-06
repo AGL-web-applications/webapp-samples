@@ -6,13 +6,17 @@ document.querySelector('#clear-button').addEventListener('click', clearButton);
 function saveButton() {
   const name = document.querySelector("#cookie-name").value;
   const value = document.querySelector("#cookie-value").value;
-  docCookies.setItem(name, value, 31536e3 /*one year validity*/);
+  var secure = document.querySelector("#cookie-secure").checked;
+  console.log(secure);
+  docCookies.setItem(name, value, Infinity, null, null, secure);
   listCookies();
 }
 
 function incrementButton() {
   var count = Number(docCookies.getItem("counter"));
-  docCookies.setItem("counter", count+1, 31536e3 /*one year validity*/);
+  var secure = document.querySelector("#increment-cookie-secure").checked;
+  console.log(secure);
+  docCookies.setItem("counter", count+1, Infinity, null, null, secure);
   listCookies();
 }
 
