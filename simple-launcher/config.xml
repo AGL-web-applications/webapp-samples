@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" id="webapps-simple-launcher" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" id="webapps-homescreen" version="1.0.0">
   <name>Simple launcher</name>
   <icon src="icon.png"/>
   <content src="index.html" type="text/html"/>
@@ -7,6 +7,7 @@
   <author>Igalia, S.L.</author>
   <license>MIT</license>
   <feature name="urn:AGL:widget:required-permission">
+    <param name="urn:AGL:permission::system:run-by-default" value="required" />
     <param name="urn:AGL:permission::public:display" value="required" />
     <param name="urn:AGL:permission::public:audio" value="required" />"
     <param name="urn:AGL:permission::public:no-htdocs" value="required" />
