@@ -4,9 +4,13 @@ package:
 	mkdir -p package
 	for i in $(APP_LIST); do \
 		cd $$i; \
-		zip -r ../package/$$i.wgt *; \
+		$(MAKE) package; \
+		cp package/* ../package; \
 		cd ..; \
 	done
+
+annex/package:
+	echo "specific rule"
 
 %/package:
 	cd `dirname $@` && $(MAKE) package
@@ -15,3 +19,11 @@ package:
 clean:
 	rm -rf package
 
+.PHONY: cleanall
+cleanall:
+	rm -rf package
+	for i in $(APP_LIST); do \
+		cd $$i; \
+		rm -rf package; \
+		cd ..; \
+	done
