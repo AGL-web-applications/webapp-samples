@@ -8,6 +8,9 @@ package:
 		cd ..; \
 	done
 
+%/package:
+	cd `dirname $@` && $(MAKE) package
+
 .PHONY: clean
 clean:
 	rm -rf package
