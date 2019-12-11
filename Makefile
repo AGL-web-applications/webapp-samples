@@ -9,9 +9,6 @@ package:
 		cd ..; \
 	done
 
-annex/package:
-	echo "specific rule"
-
 %/package:
 	cd `dirname $@` && $(MAKE) package
 
