@@ -1,4 +1,4 @@
-APP_LIST=annex application-list aquarium blob falling-blocks hextris memory-match solar-system youtube jamendo
+APP_LIST=annex application-list aquarium blob falling-blocks hextris memory-match solar-system youtube jamendo examples
 
 package:
 	mkdir -p package
