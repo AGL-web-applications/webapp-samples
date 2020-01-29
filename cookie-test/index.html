@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Cookie test AGL</title>
+    <!-- -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  </head>
+  <body>
+    <h1>Create or update cookie</h1>
+    <label>Cookie name</label>
+    <input id="cookie-name">
+
+    <label>Value</label>
+    <input id="cookie-value">
+
+    <input type="checkbox" id="cookie-secure">
+    <label>secure</label>
+
+    <input type="button" id="save-button" value="Save">
+
+    <h1>Increment counter cookie</h1>
+    <input type="checkbox" id="increment-cookie-secure">
+    <label>secure</label>
+    <input type="button" id="increment-button" value="Increment">
+
+    <h1>List of cookies</h1>
+    <ul id="list">
+    </ul>
+
+    <h1>Clear cookies</h1>
+    <input type="button" id="clear-button" value="Clear">
+
+
+    <script src="cookies.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
