@@ -50,9 +50,13 @@ function run(afb, app_id) {
 
 function init() {
     document.querySelector('#port').value = port;
+    document.querySelector('#host').value = host;
+    document.querySelector('#token').value = token;
     document.querySelector('#launch-button').
         addEventListener('click', function () {
             var port = document.querySelector('#port').value;
+            var host = document.querySelector('#host').value;
+            var token = document.querySelector('#token').value;
             var appId = document.querySelector('#app-id').value;
             var afb = new AFB({
                 host: host + ":" + port,
@@ -63,6 +67,8 @@ function init() {
     document.querySelector('#display-button').
         addEventListener('click', function () {
             var port = document.querySelector('#port').value;
+            var host = document.querySelector('#host').value;
+            var token = document.querySelector('#token').value;
             var appId = document.querySelector('#app-id').value;
             var afb = new AFB({
                 host: host + ":" + port,
