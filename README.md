@@ -5,21 +5,20 @@ with the Web Application Manager (WAM) component from
 [webOS Open Source Edition](http://www.webosose.org/).
 
 WAM is available in AGL, starting in the Flounder 6.0.5 and Guppy
-7.0.0 releases. Images must be built with the `agl-html5-framework`
-feature enabled.
+7.0.0 releases. Images must be built with the `agl-demo` feature
+enabled and build `agl-ivi-demo-platform-html5`.
 
 ## Building
 
-Run `make package` to package the apps in the format required by
-AGL. Then, copy them to your board and install with `afm-util add
-$package.wgt`.
+*This requires the changes from AGL Marlin*
 
-For integration with AGL Yocto layers, the aglwrt bbclass can be
-used to run the proper target and copy the generated files to the
-image.
+Copy any of the applications to /usr/lib/wam_apps/APPID (being
+APPID the id of the application). Then add to /usr/share/applications
+a `.desktop` file to launch it.
+
+See the examples in `meta-agl-demo` recipes.
 
 ## Adding new demos
 
-Just add the application files in a new directory, provide a
-`config.xml` file and modify the Makefile to add your application
-to the `APP_LIST`.
+Just add the application files in a new directory, including an
+`appinfo.json` manifest file.
