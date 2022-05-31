@@ -1,0 +1,11 @@
+{
+    "id": "webapps-memory-match",
+    "title": "MemoryMatch",
+    "description": "Memory match",
+    "version": "1.1.7",
+    "vendor": "Todd Brandt",
+    "type": "web",
+    "main": "index.html",
+    "uiRevision": "2",
+    "icon": "icon.svg"
+}

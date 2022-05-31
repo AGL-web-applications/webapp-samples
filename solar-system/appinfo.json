@@ -1,0 +1,11 @@
+{
+    "id": "webapps-solar-system",
+    "title": "Solar system",
+    "description": "Solar system demo using CSS3",
+    "version": "0.0.10",
+    "vendor": "Alex Girón",
+    "type": "web",
+    "main": "solar-system.html",
+    "uiRevision": "2",
+    "icon": "icon.svg"
+}

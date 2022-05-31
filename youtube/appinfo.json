@@ -1,0 +1,11 @@
+{
+    "id": "webapps-youtube",
+    "title": "YouTube",
+    "description": "YouTube",
+    "version": "1.0.0",
+    "vendor": "Google, Inc.",
+    "type": "web",
+    "main": "index.html",
+    "uiRevision": "2",
+    "icon": "icon.svg"
+}
