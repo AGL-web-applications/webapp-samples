@@ -1,0 +1,11 @@
+{
+    "id": "webapps-blob",
+    "title": "WebGL blob",
+    "description": "WebGL blob demo",
+    "version": "0.0.10",
+    "vendor": "Google, Inc.",
+    "type": "web",
+    "main": "blob.html",
+    "uiRevision": "2",
+    "icon": "icon.svg"
+}

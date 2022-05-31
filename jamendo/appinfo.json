@@ -1,0 +1,11 @@
+{
+    "id": "webapps-jamendo",
+    "title": "Jamendo",
+    "description": "Jamendo",
+    "version": "1.0.0",
+    "vendor": "Jamendo",
+    "type": "web",
+    "main": "index.html",
+    "uiRevision": "2",
+    "icon": "icon.svg"
+}

@@ -1,0 +1,11 @@
+{
+    "id": "webapps-hextris",
+    "title": "Hextris",
+    "description": "Hextris, a puzzle game",
+    "version": "0.0.10",
+    "vendor": "Logan Engstrom, Garrett Finucane, Noah Moroze, Michael Yang",
+    "type": "web",
+    "main": "index.html",
+    "uiRevision": "2",
+    "icon": "icon.svg"
+}

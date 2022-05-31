@@ -1,0 +1,11 @@
+{
+    "id": "webapps-aquarium",
+    "title": "AQUARIUM",
+    "description": "HTML5 aquarium demo",
+    "version": "0.0.10",
+    "vendor": "Google, Inc.",
+    "type": "web",
+    "main": "aquarium.html",
+    "uiRevision": "2",
+    "icon": "icon.svg"
+}

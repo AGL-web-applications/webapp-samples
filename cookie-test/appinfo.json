@@ -1,0 +1,11 @@
+{
+    "id": "webapps-cookies",
+    "title": "Cookie test",
+    "description": "Test for cookies storage",
+    "version": "0.0.10",
+    "vendor": "Igalia, S.L.",
+    "type": "web",
+    "main": "index.html",
+    "uiRevision": "2",
+    "icon": "icon.svg"
+}
