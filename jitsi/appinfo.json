@@ -1,0 +1,13 @@
+{
+    "id": "webapps-jitsi",
+    "title": "Jitsi Meetings",
+    "description": "YouTuve",
+    "version": "1.0.0",
+    "vendor": "Jitsi",
+    "type": "web",
+    "main": "index.html",
+    "uiRevision": "2",
+    "icon": "icon.svg",
+    "allowVideoCapture": true,
+    "allowAudioCapture": true
+}
