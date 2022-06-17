@@ -7,5 +7,6 @@
     "type": "web",
     "main": "index.html",
     "uiRevision": "2",
-    "icon": "icon.svg"
+    "icon": "icon.svg",
+    "disallowScrollingInMainFrame": false
 }
